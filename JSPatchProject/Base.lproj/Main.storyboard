@@ -17,9 +17,18 @@
                                 <rect key="frame" x="81" y="257" width="158" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196078430000004" green="0.40000000000000002" blue="0.054901960780000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="JS取代原生代理方法"/>
                                 <connections>
                                     <action selector="btnAlieat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EwW-Pf-wfC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="s0U-Xf-zOO">
+                                <rect key="frame" x="81" y="139" width="158" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.39629620119999998" green="1" blue="0.85652251560000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="测试js方法"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CfE-cb-toF"/>
                                 </connections>
                             </button>
                         </subviews>

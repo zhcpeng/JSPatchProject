@@ -22,15 +22,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(50, 50, 200, 50);
-    [btn setTitle:@"测试js" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-    btn.backgroundColor = [UIColor redColor];
-    [self.view addSubview:btn];
-    
-    
     [JPEngine startEngine];
     NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"viewcontroller" ofType:@"js"];
     NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
@@ -39,8 +30,8 @@
     
 }
 
--(void)btnClick:(UIButton *)button{
-    NSLog(@"11111");
+-(IBAction)btnClick:(UIButton *)button{
+    NSLog(@"输出1：本地原生方法");
 //    [self callFunction];
 }
 
@@ -55,7 +46,7 @@
 }
 
 -(void)testDelegate{
-    NSLog(@"55555");
+    NSLog(@"输出4：本地代理方法");
 }
 
 

@@ -98,13 +98,13 @@
 				AD55580D1C0D3449002AFFDD /* ViewController.h */,
 				AD55580E1C0D3449002AFFDD /* ViewController.m */,
 				AD5558221C0D4116002AFFDD /* viewcontroller.js */,
-				AD5558261C0D448F002AFFDD /* viewcontroller2.js */,
 				ADA1B38B1C0EDBCD000F82D3 /* HMTestDelegate.h */,
 				ADA1B38C1C0EDBCD000F82D3 /* HMTestDelegate.m */,
 				AD5558101C0D3449002AFFDD /* Main.storyboard */,
 				AD5558131C0D3449002AFFDD /* Assets.xcassets */,
 				AD5558151C0D3449002AFFDD /* LaunchScreen.storyboard */,
 				AD5558181C0D3449002AFFDD /* Info.plist */,
+				AD5558261C0D448F002AFFDD /* viewcontroller2.js */,
 				AD5558071C0D3449002AFFDD /* Supporting Files */,
 			);
 			path = JSPatchProject;

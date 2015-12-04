@@ -11,7 +11,6 @@
 @implementation HMTestDelegate
 
 -(void)callDelegate{
-//    [_delegate testDelegate];
     if (_delegate && [_delegate respondsToSelector:@selector(testDelegate)]) {
         [_delegate testDelegate];
     }
